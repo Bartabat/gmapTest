@@ -6,7 +6,7 @@
     <script type="text/javascript" src="reachability.js"></script>
 
     <script type="text/javascript">
-    function onBodyLoad(){
+    function onBodyLoad() {
         //  document.addEventListener("deviceready", onDeviceReady, false);
         onDeviceReady();
     }
@@ -24,6 +24,8 @@
             map.initialize();
         }
     }
+
+
     </script>
 </head>
 
@@ -31,5 +33,9 @@
     <div id="map_canvas" style="width:100%; height:100%;">
         Couldn't load map because there was no internet connection available
     </div>
+
+    <script type="text/javascript">
+    onBodyLoad();
+    </script>
 </body>
 </html>
