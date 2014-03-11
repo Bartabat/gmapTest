@@ -15,6 +15,11 @@
         Baptiste SENIDRE
     </author>
 
+    <icon src="img/icons/android/generic.png" gap:platform="android" gap:density="ldpi" />
+    <icon src="img/icons/android/generic.png" gap:platform="android" gap:density="mdpi" />
+    <icon src="img/icons/android/generic.png" gap:platform="android" gap:density="hdpi" />
+    <icon src="img/icons/android/generic.png" gap:platform="android" gap:density="xhdpi" />
+
     <gap:splash src="img/splash/android/generic.png" gap:platform="android" gap:density="ldpi" />
     <gap:splash src="img/splash/android/generic.png" gap:platform="android" gap:density="mdpi" />
     <gap:splash src="img/splash/android/generic.png" gap:platform="android" gap:density="hdpi" />
